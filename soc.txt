@@ -1,1 +1,55 @@
-soc  language successfully downloaded.
+# SOC - Scripted Operating Console
+# Version 1.0.0
+# Source File: soc.txt
+# License: Apache License 2.0
+# Copyright: seaofc0de
+# 
+# SOC IS AN OPEN SOURCE LANGUAGE. COPYRIGHT SEAOFC0DE.
+# LEGAL ACTION WILL BE TAKEN IF CHANGES ARE MADE WITHOUT ATTRIBUTION.
+# THE SOFTWARE IS LICENSED UNDER THE APACHE LICENSE 2.0 LICENSE.
+# FOR QUESTIONS AND ISSUES PLEASE CONTACT US VIA THE SOC REPOSITORY ON GITHUB.
+#
+# Official repository: https://github.com/seaofc0de/SOC
+#
+# This file is required to run SOC in PyTerm.
+# Updates will always be available at the same URL.
+# Files in unofficial repositories may not be safe.
+
+---
+
+[files]
+/bin/soc_launcher.py
+/bin/soc_terminal.py
+/etc/soc.conf
+/lib/soc_core.so
+/lib/soc_plugins/network.so
+/lib/soc_plugins/ui.so
+
+[install_steps]
+1. Checking the system environment
+2. Indexing
+3. Copy binary files
+4. Uninstall plugins
+5. Configure system files
+6. Registration of SOC services
+7. Start the SOC console
+
+[dependencies]
+python >= 3.7
+libcore >= 1.2
+libsocket >= 0.8
+libui >= 2.0
+
+[Resources]
+scripts = https://example.com/soc/scripts.py
+parser = https://example.com/soc/parser.py
+lexer = https://example.com/soc/lexer.py
+debugger = https://example.com/soc/debugger.py
+syntax = https://example.com/soc/syntax.rules
+helper-tools = https://example.com/soc/tools.zip
+
+[metadata]
+Author = seaofc0de
+Maintainer = github.com/seaofc0de
+Last Updated on 2025-06-27
+Platform = PyTerm / Linux
