@@ -1,4 +1,4 @@
-# SOCjekeı - Scripted Operating Console
+# SOC - Scripted Operating Console
 # Version 1.0.0
 # Source File: soc.txt
 # License: Apache License 2.0
